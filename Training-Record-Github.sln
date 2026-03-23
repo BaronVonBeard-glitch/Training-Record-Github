@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "training-record-files", "training-record-files", "{5D998974-6FC2-B4F5-76FA-DCDB01708D57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Net-developer-plan", ".Net-developer-plan", "{C1FD231B-46BB-9528-A557-7A37D3399177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "working-with-dependencies", "training-record-files\.Net-developer-plan\working-with-dependencies\working-with-dependencies.csproj", "{DB93C920-8068-8AD3-696E-CEDB2AADC0CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB93C920-8068-8AD3-696E-CEDB2AADC0CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB93C920-8068-8AD3-696E-CEDB2AADC0CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB93C920-8068-8AD3-696E-CEDB2AADC0CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB93C920-8068-8AD3-696E-CEDB2AADC0CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1FD231B-46BB-9528-A557-7A37D3399177} = {5D998974-6FC2-B4F5-76FA-DCDB01708D57}
+		{DB93C920-8068-8AD3-696E-CEDB2AADC0CB} = {C1FD231B-46BB-9528-A557-7A37D3399177}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FA7BC24-2474-4F0C-B973-07C2C8724224}
+	EndGlobalSection
+EndGlobal
